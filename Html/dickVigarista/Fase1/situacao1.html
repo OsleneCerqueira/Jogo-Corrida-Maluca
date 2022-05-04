@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fase 1 - Dick Vigarista</title>
+    <script src="../../../JS/jogo.js"></script>
+    <link rel="stylesheet" href="../../../CSS/fases.css">
 </head>
+
 <body>
     <main class="container">
 
-        <h1 class="titulo">Dick Vigarista - Parte 1</h1>
+        <h1>Dick Vigarista - Parte 1</h1>
 
-        <section class="sessao1" >
-            <p class="text-enuciado"> Faltam alguns minutos para o inicio da corrida.
-                Dick Vigarista está aguardando, quando vê a noticia na tv de que uma das potes que liga uma pista a outra no trajeto da corrida está interditada para manutenção.
-                A organização da corrida não tem conhecimento desta informação. Mas Dick vigarista conhece um atalho. 
+        <section>
+            <p class="descricao"> Faltam alguns minutos para o início da corrida.
+                Dick Vigarista está aguardando, quando vê a noticia na tv de que uma das potes que liga uma pista a
+                outra no trajeto da corrida está interditada para manutenção.
+                A organização da corrida não tem conhecimento desta informação. Mas Dick vigarista conhece um atalho.
             </p>
         </section>
 
         <section class="sessao2">
-            <p class="pergunta">O que ele deve fazer?</p>
+            <p>O que ele deve fazer?</p>
 
-        <p class="op1"> 1 - Informar a organização da corrida sobre a notícia.</p>
-        <p class="op2"> 2 - Ir pelo atalho que conhece, sem conuticar a notícia.</p>
-    </section>
-    <button class="botao" onclick="decisao(validaEscolha(['1','2']), 'op1-situacao1.html', 'op2-situacao1.html')">Responder</button>
+            <p class="op"> 1 - Informar a organização da corrida sobre a notícia.</p>
+            <p class="op"> 2 - Ir pelo atalho que conhece, sem comunicar a notícia.</p>
+        </section>
+        <button class="botao"
+            onclick="decisao(validaEscolha(['1','2']), 'op1-situacao1.html', 'op2-situacao1.html')">Responder</button>
     </main>
-    <script src="../../../JS/jogo.js"></script>
+
 </body>
+
 </html>

@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../JS/jogo.js"></script>
     <title>Personagens</title>
+    <link rel="stylesheet" href="../CSS/selacaoPersornagem.css">
 </head>
+
 <body>
+
     <main class="container">
         <h1>Escolha seu personagem</h1>
 
-    <section class="personagens">
+        <section class="personagens">
 
-        <button class="porsonagem"> <p>Dick Vigarista</p>  <img src="../Img/Dick.gif" alt="Dick vigarista em seu carro"></button>
+            <section class="personagem">
+                <p>Dick Vigarista</p> <img src="../Img/Dick.gif" alt="Dick vigarista em seu carro">
+            </section>
 
-        <button class="personagem"> <p>Penelope Charmosa</p>  <img src="../Img/penelopecharmosa2.jpg" alt="penelope Charmosa em seu carro"></button>
+            <section class="personagem">
+                <p>Penelope Charmosa</p> <img src="../Img/penelope.gif" alt="penelope Charmosa em seu carro">
+            </section>
 
-        <button class="personagem"> <p>Professor Aéreo </p> <img src="../Img/PROFaEREO.gif" alt="">
+            <section class="personagem">
+                <p>Professor Aéreo </p> <img src="../Img/PROFaEREO.gif" alt="professor Aéreo em seu carro">
+            </section>
+
+        </section>
+
+        <button class="botao" onclick="escolhaPersonagem(validaEscolha(['1','2','3' ]))"> Go!
         </button>
-
-    </section>
-
-    <button class="bottao"> <p>Go!</p>
-    </button>
+        <button class="botao" onclick="location.href='index.html'"> Voltar para o inicio</a></button>
     </main>
-
-    <footer class="rodape">
-        <span class="autor">Desenvolvido por Oslene Cerqueira</span>
-    </footer>
 </body>
+
 </html>

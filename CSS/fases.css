@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../Img/backgroud.jpg);
+}
+.container{
+    margin: 10px 20px 30px 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    height: 100px;
+    font-family: 'Diplomata SC', cursive;
+    color:black;
+    text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;}
+.imagem{
+    padding: 15px;
+}
+section {
+    background-color:rgb(218, 218, 204);
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding:20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.sessao2{
+    background-color:rgb(209, 120, 19);
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.op{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+button{
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'Diplomata SC', cursive;
+    color:white;
+    background-color: red;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+.botao:hover{
+    color:black;
+    background-color: white;
+}
+
+
+@media (min-width: 768px){
+    .container h1{
+        font-size: 60px;
+    }
+}
