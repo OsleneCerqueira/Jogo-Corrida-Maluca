@@ -1,12 +1,12 @@
 function escolhaPersonagem(escolha) {
-    if (escolha === "1") {
-        return window.location.href = ".././Html/dickVigarista/Fase1/situacao1.html";
+    if (escolha === "1") { 
+        return window.location.href = "../Html/dickVigarista/Fase1/situacao1.html";
     }
     else if (escolha === "2") {
-        return window.location.href = ".././Html/penelopeCharmosa/Fase1/situacao1.html";
+        return window.location.href = "../Html/penelopeCharmosa/Fase1/situacao1.html";
     }
     else {
-        return window.location.href = ".././Html/professorAereo/Fase1/situacao1.html";
+        return window.location.href = "../Html/professorAereo/Fase1/situacao1.html";
     }
 }
 
@@ -30,4 +30,3 @@ function decisao(escolha, link1, link2) {
         return window.location.href = link2;
     }
 }
-
