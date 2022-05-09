@@ -22,7 +22,7 @@ body{
     height: 100px;
     font-family: 'Diplomata SC', cursive;
     color:black;
-    text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;}
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;}
 .imagem{
     padding: 15px;
 }
